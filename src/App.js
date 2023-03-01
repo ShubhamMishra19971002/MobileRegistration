@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Screen1 from "./Screen/Screen1";
+import Screen2 from "./Screen/Screen2";
+import Screen3 from "./Screen/Screen3";
+import Screen4 from "./Screen/Screen4";
+import Grid from "./Screen/grid";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+<Router>
+      <div> <Switch>
+          <Route path="/screen1">
+          <Screen1/>
+          </Route>
+          <Route path="/screen2">
+           <Screen2/>
+          </Route>
+          <Route path="/screen3">
+            <Screen3/>
+          </Route>
+          <Route path="/screen4">
+          <Screen4/>
+          </Route>
+
+          <Route path="/1">
+          <Grid/>
+          </Route>
+
+          
+        </Switch>
+      </div>
+    </Router>
+</>   
+  )
 }
 
-export default App;
