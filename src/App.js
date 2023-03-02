@@ -16,20 +16,20 @@ export default function App() {
     <>
 <Router>
       <div> <Switch>
-          <Route path="/screen1">
+          <Route path="/1">
           <Screen1/>
           </Route>
-          <Route path="/screen2">
+          <Route path="/2">
            <Screen2/>
           </Route>
-          <Route path="/screen3">
+          <Route path="/3">
             <Screen3/>
           </Route>
-          <Route path="/screen4">
+          <Route path="/3">
           <Screen4/>
           </Route>
 
-          <Route path="/1">
+          <Route path="/5">
           <Grid/>
           </Route>
 
