@@ -49,14 +49,11 @@ const Referral = () => {
                   Apply
                 </button>
               </div>
-
             </div>
           </div>
-
         </div>
       </div>
     </div>
-
   );
 };
 
