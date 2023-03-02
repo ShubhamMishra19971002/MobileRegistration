@@ -11,7 +11,9 @@ import Screen3 from "./Screen/Screen3";
 import Screen4 from "./Screen/Screen4";
 import Grid from "./Screen/grid";
 import Referral from "./Screen/Referral";
-
+import Cards from "./Screen/Cards";
+import Card from "./Screen/Card";
+import Income from "./Screen/Income";
 export default function App() {
   return (
     <>
@@ -34,9 +36,21 @@ export default function App() {
           <Grid/>
           </Route>
 
-          <Route path="/referral">
+          <Route path="/6">
           <Referral/>
           </Route>
+          <Route path="/7">
+          <Cards/>
+          </Route>
+
+          <Route path="/8">
+          <Card/>
+          </Route>
+
+          <Route path="/9">
+          <Income/>
+          </Route>
+
 
           
         </Switch>
