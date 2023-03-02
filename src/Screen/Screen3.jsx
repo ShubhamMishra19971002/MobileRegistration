@@ -11,7 +11,7 @@ const Screen3 = () => {
                     <img
                         className="w-full h-full"
                         alt=""
-                        src={require("../Assets/png/mobile_number.png")}
+                        src={require("../Assets/png/Mobile-number.png")}
                     />
                 </div>
             </div>
