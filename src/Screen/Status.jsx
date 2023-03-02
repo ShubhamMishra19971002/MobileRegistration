@@ -1,21 +1,21 @@
 import React from 'react'
 
-const Grid = () => {
+const Status = () => {
   return (
-
+    <>
     <div class="container  w-screen h-screen grid grid-rows-2">
-      <div class="p-12 bg-cyan-100 flex items-center justify-center">
-      <span className="back-arrow"> </span>
-      <div className="w-full h-full">
+      <div class=" bg-cyan-100 flex items-center justify-center">
+        <span className="back-arrow"> </span>
+        <div className="w-full h-full">
           <img
             className="w-full h-full"
             alt=""
-            src={require("../Assets/Mpocket.jpg")}
+            src={require("../Assets/png/Mobile-number.png")}
           />
         </div>
       </div>
-      <div class="p-12 bg-white-400 top rounded shadow flex items-center justify-center">
-      <div className=" w-full h-full">
+      <div class=" bg-white-400 top rounded shadow flex items-center justify-center">
+        <div className=" w-full h-full">
           <div className="flex flex-col items-center">
             <small className="text-lg bold-500">Sign Up With Mpocket </small>
             <div>
@@ -55,8 +55,8 @@ const Grid = () => {
         </div>
       </div>
     </div>
-    
+  </>
   )
 }
 
-export default Grid
+export default Status
