@@ -32,15 +32,24 @@ const Referral = () => {
                 required
               ></input>
 
-              <button
-                type="button"
-                style={{ borderColor: "blue" }}
-                className="  w-5/6 mx-6 bg-blue-500 my-6 py-2.5 lg:px-40 px-28 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-blue rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-              >
-                Apply
-              </button>
+              <div className="mx-6 my-2 w-5/6 space-x-0">
+                <button
+                  type="button"
+                  style={{ borderColor: "blue" }}
+                  className="bg-white-500   mx-3 w-36  items-center hover:bg-blue-700 text-black font-bold py-2.5 px-0 border border-blue-700 rounded"
+                >
+                  Skip
+                </button>
+                {/* bg-blue-500 my-6 py-2.5 lg:px-40 px-28 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-blue rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700" */}
+                <button
+                  type="button"
+                  style={{ borderColor: "blue" }}
+                  className="bg-blue-500  w-36 items-center hover:bg-blue-700 text-white font-bold py-2.5 px-0 border border-blue-700 rounded "
+                >
+                  Apply
+                </button>
+              </div>
             </div>
-
           </div>
         </div>
       </div>
