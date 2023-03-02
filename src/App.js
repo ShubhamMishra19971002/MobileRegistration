@@ -10,6 +10,7 @@ import Screen2 from "./Screen/Screen2";
 import Screen3 from "./Screen/Screen3";
 import Screen4 from "./Screen/Screen4";
 import Grid from "./Screen/grid";
+import Referral from "./Screen/Referral";
 
 export default function App() {
   return (
@@ -31,6 +32,10 @@ export default function App() {
 
           <Route path="/5">
           <Grid/>
+          </Route>
+
+          <Route path="/referral">
+          <Referral/>
           </Route>
 
           
